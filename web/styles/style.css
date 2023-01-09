@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+  font-size: 20px; /* el tamaño de la fuente base */
+  font-family: 'Nunito Sans', sans-serif; /* esta es la familia de la tipografía que adquieres en google fonts (indispensable) */
+  background-color: #4F4F4F; /* este es el color de fondo de todo el contenido dentro del códgigo html */
+}
+
+body {
+  width: 1200px; /* esto es el ancho del cuerpo */
+  margin: 0 auto; /* en este caso en  particular, el primero valor afecta la parte superior e inferior y el segundo valor afecta los laterales izquierda y derecha del margen*/
+  background-color: #BBBBBB; /* esto es el color del fondo del cuerpo (no del sitio) */
+  padding: 0 20px 20px 20px; /* tienes 4 valores puestos en el relleno, para dar un poco de espacio alrededor del contenido, Los valores se ponen: arriba, derecha, abajo e izquierda, en ese orden. */
+  border: 0px solid black; /* este simplemente pone un borde de 5 píxeles de ancho, continuo y de color negro alrededor del elemento body. */
+}
+
+
+h1 {
+  font-size: 40px; /* es el tamaño de la funte base */
+  text-align: center; /* esto representa la ubicación del texto (izquierda, centro o derecha) */
+  margin: 0; /* esto representa el margen del elemento h1 */
+  padding: 20px 0; /* esto representa el espacio alrededor del contenido */
+  color: #424242; /* esto es el color del elemento h1 */
+  text-shadow: 2px 2px 5px black; /* esto es la sombra del texto. El primer valor en píxeles asigna el desplazamiento horizontal, El segundo valor en píxeles asigna el desplazamiento vertical, El tercer valor en píxeles asigna radio de desenfoque de la sombra, El cuarto valor asigna el color base de la sombra (valores negativos llevan a los lados opuestos). */
+}
+
+p {
+  font-size: 20px; /* este es el tamaó de la letra*/
+  line-height: 1.5; /* este es el espacio que hay entre parrafos de forma vertical*/
+  letter-spacing: 0.5px; /*este es el espacio entre letras de forma horizontal*/
+}
+
+li {
+   font-size: 16px;
+   line-height: 25px;
+   letter-spacing: 0.5px;
+}
+
+img {
+  display: block; /* esto es un elemento que permite configurar la imágen cuando es más grande que el margen del cuerpo */
+  margin: 0 auto;
+  width: 800px;
+  box-shadow: 5px 5px 20px black;
+  border-radius: 50px
+}
